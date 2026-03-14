@@ -1,0 +1,94 @@
+@font-face {
+    font-family: "Noto Sans Gujarati";
+    src: url("/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc");
+}
+
+@font-face {
+    font-family: "WenQuanYi Zen Hei";
+    src: url("/usr/share/fonts/truetype/wqy/wqy-zenhei.ttc");
+}
+
+body {
+    font-family: "Noto Sans Gujarati", "WenQuanYi Zen Hei", sans-serif;
+    margin: 2cm;
+    line-height: 1.5;
+    color: #333;
+}
+
+h1 {
+    font-size: 24pt;
+    color: #1a237e;
+    text-align: center;
+    margin-bottom: 1cm;
+    page-break-after: avoid;
+}
+
+h2 {
+    font-size: 18pt;
+    color: #283593;
+    margin-top: 1cm;
+    page-break-after: avoid;
+}
+
+h3 {
+    font-size: 14pt;
+    color: #303f9f;
+    margin-top: 0.8cm;
+    page-break-after: avoid;
+}
+
+p {
+    text-align: justify;
+    margin-bottom: 0.5cm;
+}
+
+.author {
+    text-align: center;
+    font-size: 16pt;
+    margin-bottom: 2cm;
+}
+
+.toc-title {
+    font-size: 20pt;
+    text-align: center;
+    margin-bottom: 1cm;
+}
+
+.toc-entry {
+    margin-bottom: 0.3cm;
+}
+
+.toc-page {
+    float: right;
+}
+
+.chapter {
+    page-break-before: always;
+}
+
+.chapter-title {
+    text-align: center;
+    margin-bottom: 1cm;
+}
+
+.chapter-subtitle {
+    text-align: center;
+    font-style: italic;
+    margin-bottom: 1cm;
+    color: #455a64;
+}
+
+a {
+    color: #1565c0;
+    text-decoration: none;
+}
+
+@page {
+    size: A4;
+    margin: 2cm;
+}
+
+.index {
+    column-count: 2;
+    column-gap: 1cm;
+}
